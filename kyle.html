@@ -1,0 +1,26 @@
+<html>
+<body><a id="koyle" onclick="kyler();" if>if your kyle click</a>
+<script>
+function kyler(){
+    setInterval(kylertime, 200);
+    window.setTimeout(removekylertime, 20000);
+}
+
+function kylertime(){
+    document.getElementById("koyle").innerHTML = "&nbsp;"+   document.getElementById("koyle").innerHTML;
+}
+function kylertime2(){
+    document.getElementById("koyle").innerHTML = document.getElementById("koyle").innerHTML.substr(6);
+}
+function removekylertime(){
+    clearInterval(kylertime);
+    setInterval(kylertime2, 200);
+    window.setTimeout(removkyletime, 20000);
+}
+function removkyletime(){
+    clearInterval(kylertime2);
+}
+
+</script>
+</body>
+</html>
