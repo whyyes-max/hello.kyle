@@ -10,3 +10,5 @@ html
 # howtorun
 # dothis:
 > firefox.exe kyle.html
+
+#gothub page link to kyale is: https://whyyes-max.github.io/hello.kyle/kyle.html
